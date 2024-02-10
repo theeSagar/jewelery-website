@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Curlistic Jewellery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,200;7..72,400;7..72,800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        
+        <div class="logo">
+            <img src="logo.png" alt="Curlistic Logo">
+        </div>
+        <div class="header-brand">
+            Curlistic Jewellery
+        </div>
+        <nav>
+            <ul>
+                <li class="in-Home-Cart"><a href="/index.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="gold">
+
+</div>
+    <!-- Checkout Section -->
+    <section class="checkout">
+        <h1>Checkout</h1>
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <ul>
+                Diamond Essence Necklace - ₹10,000.00
+            </ul>
+            <p>Total: ₹10,000.00</p>
+        </div>
+        <div class="payment-details">
+            <h2>Payment Details</h2>
+            <form action="submit_payment.php" method="POST">
+                <label for="cardNumber">Card Number:</label><br>
+                <input type="text" id="cardNumber" name="cardNumber" required><br>
+                <label for="expiryDate">Expiry Date:</label><br>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required><br>
+                <label for="cvv">CVV:</label><br>
+                <input type="text" id="cvv" name="cvv" required><br>
+                <button type="submit">Complete Purchase</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-foot">
+    <div class="row">
+        <div class="footer-col" id="speclAbout">
+            <h4>About Curlistic</h4>
+            <p>We specialized in creating state art diamond rings, necklaces and bracelets. Our primary focus is to bring in top line products and high quality results in the hands of every customer. We know how challenging it can be for you to find amazing diamonds, and we are here to help you.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Upgrade Gold Program</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Policies</h4>
+            <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Lifetime Warranty</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Shipping Policy</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>&copy; 2024 Curlistic Jewellery. All Rights Reserved.</p>
+<div class="made-india">
+    <img src="india.jpg" alt="">
+ 
+ </div>
+</footer>
+    <source src="homescript.js" type="">
+</body>
+</html>
